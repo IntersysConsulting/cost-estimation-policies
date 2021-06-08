@@ -1,7 +1,6 @@
 module "tfplan/v2" {
   source = "tfplan-v2.sentinel"
-}
-    
+} 
 module "tfplan-functions" {
     source = "tfplan-functions.sentinel"
 }
