@@ -7,11 +7,6 @@ policy "aws-time" {
     enforcement_level = "soft-mandatory"
 }
 
-policy "allowed-providers" {
-    source            = "./allowed-providers.sentinel"
-    enforcement_level = "soft-mandatory"
-}
-
 # policy "aws-instance-type" {
 #     enforcement_level = "hard-mandatory"
 # }
