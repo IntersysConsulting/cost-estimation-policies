@@ -3,6 +3,7 @@
 #}
 
 policy "aws-time" {
+    source            = "./aws-time.sentinel"
     enforcement_level = "soft-mandatory"
 }
 
