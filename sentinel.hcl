@@ -7,8 +7,8 @@ policy "aws-time" {
     enforcement_level = "soft-mandatory"
 }
 
-policy "aws-time" {
-    source            = "./aws-time.sentinel"
+policy "allowed-providers" {
+    source            = "./allowed-providers.sentinel"
     enforcement_level = "soft-mandatory"
 }
 
